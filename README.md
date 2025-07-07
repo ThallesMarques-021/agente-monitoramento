@@ -43,11 +43,4 @@ Usuário: admin
 
 Senha: admin
 
-   web-monitor-agent/
-├── agent/
-│   ├── ping_monitor.py         # Monitoramento de latência via ping
-│   ├── http_monitor.py         # Monitoramento de tempo de resposta HTTP
-│   └── scheduler.py            # Agendador de tarefas
-├── docker-compose.yml          # Orquestração dos containers
-├── Dockerfile                  # Imagem do agente Python
-└── README.md                   # Este arquivo
+
