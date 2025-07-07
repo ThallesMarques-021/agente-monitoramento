@@ -1,0 +1,27 @@
+
+services:
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: monitoring
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+
+  agent:
+    build: ./agent
+    depends_on:
+      - db
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-storage:/var/lib/grafana
+
+volumes:
+  grafana-storage:
