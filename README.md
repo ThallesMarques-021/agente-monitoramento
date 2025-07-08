@@ -45,11 +45,6 @@ Acesse o Grafana:
 🔒 Senha: admin
 
 
-![image](https://github.com/user-attachments/assets/2a774da4-aeeb-485d-bc0b-b0b37a8db6ca)
-
-
-
-
 
 
 ![image](https://github.com/user-attachments/assets/6f25aaf9-714e-48f6-ad0d-85b58c3a145c)
