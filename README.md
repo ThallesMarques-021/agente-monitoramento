@@ -32,7 +32,8 @@ Agente de monitoramento de rede em container Docker que realiza testes de ping e
 1. Clone o repositório:
    ```bash
    https://github.com/ThallesMarques-021/agente-monitoramento
-   cd web-monitor-agent
+   cd monitoring-agent
+   
   docker-compose up -d
 
 Acesse o Grafana:
@@ -44,14 +45,8 @@ Acesse o Grafana:
 🔒 Senha: admin
 
 
-web-monitor-agent/
-├── agent/
-│   ├── ping_monitor.py         # Monitoramento de latência via ping
-│   ├── http_monitor.py         # Monitoramento de tempo de resposta HTTP
-│   └── scheduler.py            # Agendador de tarefas
-├── docker-compose.yml          # Orquestração dos containers
-├── Dockerfile                  # Imagem do agente Python
-└── README.md                   # Este arquivo
+![image](https://github.com/user-attachments/assets/2a774da4-aeeb-485d-bc0b-b0b37a8db6ca)
+
 
 
 
