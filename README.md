@@ -37,10 +37,21 @@ Agente de monitoramento de rede em container Docker que realiza testes de ping e
 
 Acesse o Grafana:
 
-URL: http://localhost:3000
+🌐 URL: http://localhost:3000
 
-Usuário: admin
+👤 Usuário: admin
 
-Senha: admin
+🔒 Senha: admin
+
+
+web-monitor-agent/
+├── agent/
+│   ├── ping_monitor.py         # Monitoramento de latência via ping
+│   ├── http_monitor.py         # Monitoramento de tempo de resposta HTTP
+│   └── scheduler.py            # Agendador de tarefas
+├── docker-compose.yml          # Orquestração dos containers
+├── Dockerfile                  # Imagem do agente Python
+└── README.md                   # Este arquivo
+
 
 
