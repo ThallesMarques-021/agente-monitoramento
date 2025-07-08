@@ -57,6 +57,8 @@ Visualização	Grafana
 Orquestração	Docker Compose
 Monitoramento	ping3, requests
 Agendamento	schedule (Python)
+
+
 🔐 Segurança e Resiliência
 Containers isolados via Docker
 
