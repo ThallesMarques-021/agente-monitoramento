@@ -23,11 +23,6 @@ O Grafana se conecta ao MongoDB (via plugin ou exportação) e exibe os dados em
 
 🧱 Componentes
 1. Agente de Monitoramento (Python)
-ping_monitor.py: Mede latência e status de conectividade usando ping3.
-
-http_monitor.py: Mede tempo de resposta e códigos HTTP usando requests.
-
-scheduler.py: Agendador que executa os testes periodicamente com schedule.
 
 2. Banco de Dados (MongoDB)
 Armazena documentos com os resultados dos testes:
@@ -39,7 +34,7 @@ http: host, status_code, tempo de resposta, timestamp
 3. Grafana
 Visualiza os dados em tempo real.
 
-Dashboards sugeridos:
+Dashboards:
 
 Latência média por host
 
