@@ -76,6 +76,5 @@ Suporte a exportação para bancos SQL ou sistemas de alerta
 📌 Considerações Finais
 Este projeto é modular, leve e extensível. Pode ser usado para monitoramento interno de redes, verificação de disponibilidade de serviços externos ou como base para soluções mais robustas de observabilidade.
 
-![image](https://github.com/user-attachments/assets/520ce7c1-37a5-4444-84da-3a1cd300cd41)
 
 
